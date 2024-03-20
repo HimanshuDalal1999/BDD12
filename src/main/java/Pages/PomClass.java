@@ -21,7 +21,7 @@ public class PomClass
 	@FindBy ( id = "nav-logo-sprites") private WebElement verifyLogo;
 	@FindBy (id = "twotabsearchtextbox") private WebElement enteringSearchBox;
 	@FindBy (id = "nav-search-submit-button") private WebElement clickingSearchBox;
-	@FindBy (xpath = "//div[@class='a-section a-spacing-none _bXVsd_block_1vI8- _bXVsd_hFull_2lnNw _bXVsd_wFull_3f8b2 _bXVsd_row_3CEm0 _bXVsd_itemsCenter_3flfN']") private WebElement Iphone;
+	@FindBy (xpath = "//span[text()='iPhone 15 Pro Max. Titanium']/parent::span") private WebElement Iphone;
 	@FindBy (id = "CardInstanceD329mCEy_HUmQ5AMJHHcIQ") private WebElement clickingAmbipure;
 	@FindBy (xpath = "//img[@alt='Car Accessories']") private WebElement verifyingCarAccessories;
 	@FindBy (id = "gw-ftGr-desktop-hero-5") private WebElement clickingHeadphone;
